@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d0lqpb3ofii5q"
+path="res://.godot/imported/JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.ogg-c890734f5dae6bd8a3aa11a5cea66ca7.oggvorbisstr"
+
+[deps]
+
+source_file="res://UI SFX Pack/Free/Mono/ogg/JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.ogg"
+dest_files=["res://.godot/imported/JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.ogg-c890734f5dae6bd8a3aa11a5cea66ca7.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
