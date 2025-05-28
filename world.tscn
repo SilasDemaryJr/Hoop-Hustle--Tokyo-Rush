@@ -299,4 +299,4 @@ position = Vector2(107, -215)
 scale = Vector2(0.875, 1)
 sprite_frames = SubResource("SpriteFrames_ytpkv")
 animation = &"Run"
-frame_progress = 0.0544135
+frame_progress = 0.811295
