@@ -1,5 +1,6 @@
-[gd_scene load_steps=40 format=3 uid="uid://q1e37ag3hatd"]
+[gd_scene load_steps=41 format=3 uid="uid://q1e37ag3hatd"]
 
+[ext_resource type="Script" uid="uid://m4vavtooe3vl" path="res://player_controller.gd" id="1_aqk2v"]
 [ext_resource type="Texture2D" uid="uid://t8xakq5d86om" path="res://Sprites/ATTACK 1.png" id="1_tlwt5"]
 [ext_resource type="Texture2D" uid="uid://b2wh4rtgmx7ww" path="res://Sprites/IDLE.png" id="2_aqk2v"]
 [ext_resource type="Texture2D" uid="uid://bcwf3g0ek0v85" path="res://Sprites/RUN.png" id="3_036b0"]
@@ -285,6 +286,7 @@ position = Vector2(391.5, 0)
 shape = SubResource("RectangleShape2D_dwbse")
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("1_aqk2v")
 
 [node name="Normal Collision" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(112, -195)
@@ -298,5 +300,6 @@ shape = SubResource("CircleShape2D_gbfbk")
 position = Vector2(107, -215)
 scale = Vector2(0.875, 1)
 sprite_frames = SubResource("SpriteFrames_ytpkv")
-animation = &"Run"
-frame_progress = 0.811295
+animation = &"Crouch"
+frame = 1
+frame_progress = 0.412154
