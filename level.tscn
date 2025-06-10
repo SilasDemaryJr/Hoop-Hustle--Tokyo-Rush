@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://drayu0tnefq1l"]
+
+[ext_resource type="PackedScene" uid="uid://q1e37ag3hatd" path="res://world.tscn" id="1_vonw3"]
+[ext_resource type="Texture2D" uid="uid://xhexikmquht7" path="res://Super Mango Platformer Assets by JuhoSprite/Grass_Oneway.png" id="2_oi3di"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0b4ue"]
+texture = ExtResource("2_oi3di")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_f2txt"]
+sources/0 = SubResource("TileSetAtlasSource_0b4ue")
+
+[node name="level" type="Node2D"]
+
+[node name="World" parent="." instance=ExtResource("1_vonw3")]
+position = Vector2(109, 144)
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_f2txt")
+format = 2

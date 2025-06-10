@@ -288,11 +288,11 @@ shape = SubResource("RectangleShape2D_dwbse")
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
 script = ExtResource("1_aqk2v")
 
-[node name="Normal Collision" type="CollisionShape2D" parent="CharacterBody2D"]
+[node name="NormalCollision" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(112, -195)
 shape = SubResource("CapsuleShape2D_pkg7o")
 
-[node name="Crouch Collision" type="CollisionShape2D" parent="CharacterBody2D"]
+[node name="CrouchCollision" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(112, -188)
 shape = SubResource("CircleShape2D_gbfbk")
 
@@ -303,3 +303,7 @@ sprite_frames = SubResource("SpriteFrames_ytpkv")
 animation = &"Crouch"
 frame = 1
 frame_progress = 0.412154
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+position = Vector2(112, -195)
+limit_left = -10000005
