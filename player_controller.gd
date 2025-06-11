@@ -108,13 +108,13 @@ func update_movement(delta):
 
 func play_animation():
 	match current_state:
-		State.IDLE: animated_sprite.play("idle")
-		State.RUNNING: animated_sprite.play("run")
-		State.JUMPING: animated_sprite.play("jump")
-		State.FALLING: animated_sprite.play("fall")
-		State.DASHING: animated_sprite.play("dash")
-		State.SLIDING: animated_sprite.play("slide")
-		State.CROUCHING: animated_sprite.play("crouch")
+		State.IDLE: animated_sprite.play("Idle")
+		State.RUNNING: animated_sprite.play("Run")
+		State.JUMPING: animated_sprite.play("Jump")
+		State.FALLING: animated_sprite.play("Fall")
+		State.DASHING: animated_sprite.play("Dash")
+		State.SLIDING: animated_sprite.play("Slide")
+		State.CROUCHING: animated_sprite.play("Crouch")
 
 func jump():
 	velocity.y = jump_velocity

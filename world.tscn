@@ -300,9 +300,7 @@ shape = SubResource("CircleShape2D_gbfbk")
 position = Vector2(107, -215)
 scale = Vector2(0.875, 1)
 sprite_frames = SubResource("SpriteFrames_ytpkv")
-animation = &"Crouch"
-frame = 1
-frame_progress = 0.412154
+animation = &"Fall"
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 position = Vector2(112, -195)
