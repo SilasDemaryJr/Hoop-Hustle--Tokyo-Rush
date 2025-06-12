@@ -208,7 +208,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Idle",
-"speed": 21.0
+"speed": 13.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -282,7 +282,7 @@ animations = [{
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(391.5, 0)
+position = Vector2(422, -9)
 shape = SubResource("RectangleShape2D_dwbse")
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
@@ -300,8 +300,10 @@ shape = SubResource("CircleShape2D_gbfbk")
 position = Vector2(107, -215)
 scale = Vector2(0.875, 1)
 sprite_frames = SubResource("SpriteFrames_ytpkv")
-animation = &"Fall"
+animation = &"Idle"
+frame_progress = 0.0884912
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 position = Vector2(112, -195)
+zoom = Vector2(3, 3)
 limit_left = -10000005
