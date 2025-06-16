@@ -1,12 +1,9 @@
-[gd_scene load_steps=41 format=3 uid="uid://q1e37ag3hatd"]
+[gd_scene load_steps=40 format=3 uid="uid://q1e37ag3hatd"]
 
 [ext_resource type="Script" uid="uid://m4vavtooe3vl" path="res://player_controller.gd" id="1_aqk2v"]
 [ext_resource type="Texture2D" uid="uid://t8xakq5d86om" path="res://Sprites/ATTACK 1.png" id="1_tlwt5"]
 [ext_resource type="Texture2D" uid="uid://b2wh4rtgmx7ww" path="res://Sprites/IDLE.png" id="2_aqk2v"]
 [ext_resource type="Texture2D" uid="uid://bcwf3g0ek0v85" path="res://Sprites/RUN.png" id="3_036b0"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_dwbse"]
-size = Vector2(999, 20)
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_pkg7o"]
 radius = 7.0
@@ -281,10 +278,6 @@ animations = [{
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(422, -9)
-shape = SubResource("RectangleShape2D_dwbse")
-
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
 script = ExtResource("1_aqk2v")
 
@@ -297,13 +290,12 @@ position = Vector2(112, -188)
 shape = SubResource("CircleShape2D_gbfbk")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
-position = Vector2(107, -215)
+position = Vector2(110, -214)
 scale = Vector2(0.875, 1)
 sprite_frames = SubResource("SpriteFrames_ytpkv")
-animation = &"Idle"
-frame_progress = 0.347733
+animation = &"Fall"
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 position = Vector2(112, -195)
-zoom = Vector2(3, 3)
+zoom = Vector2(4, 4)
 limit_left = -10000005
