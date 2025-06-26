@@ -12,7 +12,7 @@ func _ready():
 	
 	
 func _on_start_pressed():
-	get_tree().change_scene_to_file("res://level.tscn")
+	get_tree().change_scene_to_file("res://city_level.tscn")
 
 
 func _on_settings_pressed():
