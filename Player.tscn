@@ -292,6 +292,6 @@ sprite_frames = SubResource("SpriteFrames_ytpkv")
 animation = &"Fall"
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(0, -14)
-zoom = Vector2(3, 3)
+position = Vector2(2, -31)
+zoom = Vector2(2, 2)
 limit_left = -10000005
