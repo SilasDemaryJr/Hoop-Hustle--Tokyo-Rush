@@ -26,6 +26,9 @@ var slide_timer: float = 0.0
 @onready var crouch_collision = $CrouchCollision
 @onready var animated_sprite = $AnimatedSprite2D
 
+
+	
+
 func _ready():
 	crouch_collision.disabled = true
 

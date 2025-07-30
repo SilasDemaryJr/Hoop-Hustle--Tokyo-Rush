@@ -4510,3 +4510,13 @@ texture = ExtResource("3_d6ati")
 
 [node name="Player" parent="." instance=ExtResource("6_qoar2")]
 position = Vector2(231, 504)
+input_left = "ui_left"
+input_right = "ui_right"
+input_jump = "ui_accept"
+input_dash = "ui_select"
+input_crouch = "ui_down"
+speed = 200.0
+jump_velocity = -350.0
+dash_speed = 400.0
+dash_time = 0.3
+slide_time = 0.5

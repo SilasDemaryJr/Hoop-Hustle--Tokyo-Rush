@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://cg87lqerbu6go"]
+
+[ext_resource type="Texture2D" uid="uid://baf7yhdcww04a" path="res://semisi nonchalant.png" id="1_hd3ka"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j31us"]
+atlas = ExtResource("1_hd3ka")
+region = Rect2(0, 0, 309, 550)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ohe31"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j31us")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Semisi_npc" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(89, 123)
+scale = Vector2(0.451456, 0.396364)
+sprite_frames = SubResource("SpriteFrames_ohe31")
