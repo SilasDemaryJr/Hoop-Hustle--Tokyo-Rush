@@ -1,0 +1,13 @@
+~ start
+Semisi: This is Semisi, this is some dialogue.
+Semisi: Here are some choices lb.
+- First one
+	Semisi: I'm the number one prop!.
+- Second one
+	Semisi: You picked the second one.
+	- Lebron
+	 Semisi: LEBROONNNN
+- Start again => start
+- End the conversation => END
+Semisi: GG chat.
+=> END

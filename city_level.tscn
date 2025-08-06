@@ -1,8 +1,9 @@
-[gd_scene load_steps=11 format=4 uid="uid://b6dl6uhlkurss"]
+[gd_scene load_steps=12 format=4 uid="uid://b6dl6uhlkurss"]
 
 [ext_resource type="Texture2D" uid="uid://dsiwrw3gqo0t" path="res://Grasslands Tiles/Assets/Background_2.png" id="3_d6ati"]
 [ext_resource type="Texture2D" uid="uid://d3qkc70me8wub" path="res://tilemap_all.png" id="3_hikgi"]
 [ext_resource type="AudioStream" uid="uid://b1wmqbwmb5ope" path="res://motivational-rap-281061.mp3" id="4_nfxv4"]
+[ext_resource type="PackedScene" uid="uid://cg87lqerbu6go" path="res://semisi_npc.tscn" id="5_s87ww"]
 [ext_resource type="PackedScene" uid="uid://q1e37ag3hatd" path="res://Player.tscn" id="6_qoar2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_d6ati"]
@@ -4510,13 +4511,6 @@ texture = ExtResource("3_d6ati")
 
 [node name="Player" parent="." instance=ExtResource("6_qoar2")]
 position = Vector2(231, 504)
-input_left = "ui_left"
-input_right = "ui_right"
-input_jump = "ui_accept"
-input_dash = "ui_select"
-input_crouch = "ui_down"
-speed = 200.0
-jump_velocity = -350.0
-dash_speed = 400.0
-dash_time = 0.3
-slide_time = 0.5
+
+[node name="Semisi_npc" parent="." instance=ExtResource("5_s87ww")]
+position = Vector2(283, 490)
