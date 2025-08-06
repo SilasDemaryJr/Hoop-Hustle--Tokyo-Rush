@@ -243,11 +243,11 @@ offset_left = 518.0
 offset_top = -6.0
 offset_right = 585.0
 offset_bottom = 118.0
-text = "Semisi
+text = "
 "
 
 [node name="SemisiNonchalant" type="Sprite2D" parent="Button"]
-position = Vector2(67, 65)
+position = Vector2(40.0001, 69)
 scale = Vector2(0.217637, 0.173636)
 texture = ExtResource("8_8qtwp")
 
@@ -272,3 +272,4 @@ texture = ExtResource("11_0k4wn")
 [connection signal="pressed" from="Options/Back" to="." method="_on_back_options_pressed"]
 [connection signal="value_changed" from="Options/Audio control" to="Options/Audio control" method="_on_value_changed"]
 [connection signal="toggled" from="Options/Fullscreen controll" to="Options/Fullscreen controll" method="_on_toggled"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
