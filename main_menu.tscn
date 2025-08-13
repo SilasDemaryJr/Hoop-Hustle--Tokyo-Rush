@@ -239,6 +239,7 @@ text = "Fullscreen
 script = ExtResource("7_qe12f")
 
 [node name="Button" type="Button" parent="."]
+layout_mode = 0
 offset_left = 518.0
 offset_top = -6.0
 offset_right = 585.0
