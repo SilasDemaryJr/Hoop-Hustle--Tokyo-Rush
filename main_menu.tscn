@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://cs7pybyqghu30"]
+[gd_scene load_steps=18 format=3 uid="uid://cs7pybyqghu30"]
 
 [ext_resource type="Texture2D" uid="uid://bi0g3d7w38x6w" path="res://8-bit-japan-1920-x-1080-d66r1pemt07x7l1m.jpg" id="1_06t4h"]
 [ext_resource type="Script" uid="uid://d1qsgb530u2vw" path="res://main_menu.gd" id="1_jix8l"]
@@ -8,7 +8,6 @@
 [ext_resource type="Script" uid="uid://casqrh6ck7r42" path="res://audio_control.gd" id="6_nlkkf"]
 [ext_resource type="Script" uid="uid://dnmn1xvrmsqx2" path="res://fullscreen_controll.gd" id="7_qe12f"]
 [ext_resource type="Texture2D" uid="uid://baf7yhdcww04a" path="res://semisi nonchalant.png" id="8_8qtwp"]
-[ext_resource type="Texture2D" uid="uid://36pknf5jskhi" path="res://Zac rawsno.png" id="9_dy7ct"]
 [ext_resource type="Texture2D" uid="uid://cuub3a4le3xes" path="res://download (1).png" id="10_0o4t1"]
 [ext_resource type="Texture2D" uid="uid://dq76plwka1e65" path="res://semisis.png" id="11_0k4wn"]
 
@@ -239,23 +238,18 @@ text = "Fullscreen
 script = ExtResource("7_qe12f")
 
 [node name="Button" type="Button" parent="."]
-layout_mode = 0
-offset_left = 518.0
-offset_top = -6.0
-offset_right = 585.0
-offset_bottom = 118.0
+offset_left = -357.0
+offset_top = 124.0
+offset_right = -290.0
+offset_bottom = 248.0
 text = "
 "
 
 [node name="SemisiNonchalant" type="Sprite2D" parent="Button"]
-position = Vector2(40.0001, 69)
+modulate = Color(0.180005, 0.180005, 0.180005, 1)
+position = Vector2(36, 58)
 scale = Vector2(0.217637, 0.173636)
 texture = ExtResource("8_8qtwp")
-
-[node name="ZacRawsno" type="Sprite2D" parent="."]
-position = Vector2(-332.469, 270.859)
-scale = Vector2(0.0230756, 0.0176384)
-texture = ExtResource("9_dy7ct")
 
 [node name="Download(1)" type="Sprite2D" parent="."]
 position = Vector2(253, 214)
@@ -263,7 +257,7 @@ scale = Vector2(0.0546117, 0.0204546)
 texture = ExtResource("10_0o4t1")
 
 [node name="Semisis" type="Sprite2D" parent="."]
-position = Vector2(647, 48)
+position = Vector2(265, 215)
 scale = Vector2(0.0351942, 0.0129545)
 texture = ExtResource("11_0k4wn")
 

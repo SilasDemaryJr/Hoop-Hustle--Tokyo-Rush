@@ -10,7 +10,7 @@ radius = 7.0
 height = 28.0
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_gbfbk"]
-radius = 7.07107
+radius = 7.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ioo17"]
 atlas = ExtResource("1_tlwt5")
@@ -286,10 +286,10 @@ position = Vector2(0, -7)
 shape = SubResource("CircleShape2D_gbfbk")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(0, -33)
+position = Vector2(-3, -33)
 scale = Vector2(0.875, 1)
 sprite_frames = SubResource("SpriteFrames_ytpkv")
-animation = &"Fall"
+animation = &"Slide"
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(1, -54)

@@ -154,3 +154,7 @@ func start_crouch():
 func end_crouch():
 	normal_collision.disabled = false
 	crouch_collision.disabled = true
+
+
+func _on_portal_body_entered(body: Node2D) -> void:
+	pass # Replace with function body.
